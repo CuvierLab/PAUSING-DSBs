@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="dm6" locus="chr3L:8956170-8958203" version="8">
+    <Resources>
+        <Resource path="../../DATA/DRIPseq/DRIP_HLuc.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/DRIPseq/DRIP_Nelf_RNAse.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/DRIPseq/DRIP_HLuc_RNAse.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/DRIPseq/DRIP_Nelf.bigWig" type="bigwig"/>
+    </Resources>
+    <Panel height="680" name="DataPanel" width="1831">
+        <Track altColor="0,153,51" attributeKey="DRIP_HLuc.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_HLuc.bigWig" name="DRIP_HLuc.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="102,204,255" attributeKey="DRIP_HLuc_RNAse.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="102,204,255" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_HLuc_RNAse.bigWig" name="DRIP_HLuc_RNAse.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" height="75" id="46ea0160-e441-45f0-abdd-d16b903862fd" name="HLuc +/- RNAse" renderer="BAR_CHART" visible="true">
+            <Track altColor="0,153,51" attributeKey="DRIP_HLuc.bigWig" autoScale="false" color="0,0,178" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_HLuc.bigWig" name="DRIP_HLuc.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="102,204,255" attributeKey="DRIP_HLuc_RNAse.bigWig" autoScale="false" color="102,204,255" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_HLuc_RNAse.bigWig" name="DRIP_HLuc_RNAse.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="255,51,0" attributeKey="DRIP_Nelf.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,153,0" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_Nelf.bigWig" name="DRIP_Nelf.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="102,204,255" attributeKey="DRIP_Nelf_RNAse.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,0" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_Nelf_RNAse.bigWig" name="DRIP_Nelf_RNAse.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="3aee17ba-4cff-4a68-994a-4296598fb685" name="NELF +/- RNAse" visible="true">
+            <Track altColor="255,51,0" attributeKey="DRIP_Nelf.bigWig" autoScale="false" color="0,153,0" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_Nelf.bigWig" name="DRIP_Nelf.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="102,204,255" attributeKey="DRIP_Nelf_RNAse.bigWig" autoScale="false" color="153,153,0" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_Nelf_RNAse.bigWig" name="DRIP_Nelf_RNAse.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="e80969e9-223a-45a2-852f-5046ad4e93b3" name="NELF / HLuc" visible="true">
+            <Track altColor="0,153,51" attributeKey="DRIP_HLuc.bigWig" autoScale="false" color="0,0,178" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_HLuc.bigWig" name="DRIP_HLuc.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="255,51,0" attributeKey="DRIP_Nelf.bigWig" autoScale="false" color="0,153,0" fontSize="10" height="75" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/DRIPseq/DRIP_Nelf.bigWig" name="DRIP_Nelf.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="600.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="118" name="FeaturePanel" width="1831">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Curated" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;111.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz" name="Refseq Curated" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.8472049689440994"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

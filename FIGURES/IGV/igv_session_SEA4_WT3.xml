@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="dm6" locus="chr3L:8956171-8958203" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource path="../../DATA/CHIPSEQ/SEA4_WT3/WT3_Rad51_N1_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/CHIPSEQ/H2AV-R2_WT3_Luc-KD_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/CHIPSEQ/SEA4_WT3/SEA4_Rad51_N1_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/CHIPSEQ/H2AV-R2_SEA4_Nelf-KD_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/CHIPSEQ/H2AV-R2_SEA4_Luc-KD_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/CHIPSEQ/H2AV-R2_WT3_Nelf-KD_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/H3K36me3/ChIP_H3K36me3_FSEA4_Luc.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/H3K36me3/ChIP_H3K36me3_FSEA4_Nelf.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/H3K36me3/ChIP_H3K36me3_FWT3_Nelf.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/CHIPSEQ/SEA4_WT3/WT3_Rad51_L1_RPGC.bw" type="bw"/>
+        <Resource path="../../DATA/H3K36me3/ChIP_H3K36me3_FWT3_Luc.bigWig" type="bigwig"/>
+        <Resource path="../../DATA/CHIPSEQ/SEA4_WT3/SEA4_Rad51_L1_RPGC.bw" type="bw"/>
+    </Resources>
+    <Panel height="736" name="DataPanel" width="1831">
+        <Track attributeKey="H2AV-R2_WT3_Luc-KD_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_WT3_Luc-KD_RPGC.bw" name="H2AV_WT3_Luc-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="H2AV-R2_WT3_Nelf-KD_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_WT3_Nelf-KD_RPGC.bw" name="H2AV_WT3_Nelf-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="859a1106-f1cf-4e4c-9a10-63e31ab15b97" name="H2AV_WT3" renderer="BAR_CHART" visible="true">
+            <Track altColor="0,0,178" attributeKey="H2AV-R2_WT3_Luc-KD_RPGC.bw" autoScale="false" color="0,0,178" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_WT3_Luc-KD_RPGC.bw" name="H2AV-R2_WT3_Luc-KD_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="0,0,178" attributeKey="H2AV-R2_WT3_Nelf-KD_RPGC.bw" autoScale="false" color="255,0,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_WT3_Nelf-KD_RPGC.bw" name="H2AV-R2_WT3_Nelf-KD_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="H2AV-R2_SEA4_Luc-KD_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_SEA4_Luc-KD_RPGC.bw" name="H2AV_SEA4_Luc-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="H2AV-R2_SEA4_Nelf-KD_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_SEA4_Nelf-KD_RPGC.bw" name="H2AV_SEA4_Nelf-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="d42af57d-fe24-4da4-ba06-d994f15138ba" name="H2AV_SEA4" renderer="BAR_CHART" visible="true">
+            <Track altColor="0,0,178" attributeKey="H2AV-R2_SEA4_Luc-KD_RPGC.bw" autoScale="false" color="0,0,178" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_SEA4_Luc-KD_RPGC.bw" name="H2AV-R2_SEA4_Luc-KD_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="0,0,178" attributeKey="H2AV-R2_SEA4_Nelf-KD_RPGC.bw" autoScale="false" color="255,0,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/H2AV-R2_SEA4_Nelf-KD_RPGC.bw" name="H2AV-R2_SEA4_Nelf-KD_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="ChIP_H3K36me3_FWT3_Luc.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FWT3_Luc.bigWig" name="H3K36me3_FWT3_Luc-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7000.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="ChIP_H3K36me3_FWT3_Nelf.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,153,51" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FWT3_Nelf.bigWig" name="H3K36me3_FWT3_Nelf-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7000.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="8783242a-9253-4de8-82a0-66bb6ae8ecaf" name="H3K36me3_WT3" renderer="LINE_PLOT" visible="true">
+            <Track altColor="0,0,178" attributeKey="ChIP_H3K36me3_FWT3_Luc.bigWig" autoScale="false" color="0,0,178" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FWT3_Luc.bigWig" name="ChIP_H3K36me3_FWT3_Luc.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="0,153,51" attributeKey="ChIP_H3K36me3_FWT3_Nelf.bigWig" autoScale="false" color="0,153,51" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FWT3_Nelf.bigWig" name="ChIP_H3K36me3_FWT3_Nelf.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7000.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="ChIP_H3K36me3_FSEA4_Nelf.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,153,51" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FSEA4_Nelf.bigWig" name="H3K36me3_FSEA4_Nelf-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7000.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="ChIP_H3K36me3_FSEA4_Luc.bigWig" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FSEA4_Luc.bigWig" name="H3K36me3_FSEA4_Luc-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7000.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="82dbe923-9ac4-436f-8102-7271c603481a" name="H3K36me3_SEA4" renderer="LINE_PLOT" visible="true">
+            <Track altColor="0,0,178" attributeKey="ChIP_H3K36me3_FSEA4_Luc.bigWig" autoScale="false" color="0,0,178" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FSEA4_Luc.bigWig" name="ChIP_H3K36me3_FSEA4_Luc.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="0,153,51" attributeKey="ChIP_H3K36me3_FSEA4_Nelf.bigWig" autoScale="false" color="0,153,51" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/H3K36me3/ChIP_H3K36me3_FSEA4_Nelf.bigWig" name="ChIP_H3K36me3_FSEA4_Nelf.bigWig" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7000.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="WT3_Rad51_L1_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/WT3_Rad51_L1_RPGC.bw" name="Rad51_WT3_Luc-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="WT3_Rad51_N1_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/WT3_Rad51_N1_RPGC.bw" name="Rad51_WT3_Nelf-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="ac27922c-d4c3-4335-990c-17c216333463" name="Rad51_WT3" renderer="BAR_CHART" visible="true">
+            <Track altColor="0,0,178" attributeKey="WT3_Rad51_L1_RPGC.bw" autoScale="false" color="0,0,178" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/WT3_Rad51_L1_RPGC.bw" name="WT3_Rad51_L1_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="153,153,0" attributeKey="WT3_Rad51_N1_RPGC.bw" autoScale="false" color="153,153,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/WT3_Rad51_N1_RPGC.bw" name="WT3_Rad51_N1_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="SEA4_Rad51_L1_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/SEA4_Rad51_L1_RPGC.bw" name="Rad51_SEA4_Luc-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="SEA4_Rad51_N1_RPGC.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/SEA4_Rad51_N1_RPGC.bw" name="Rad51_SEA4_Nelf-KD" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="10" id="7447df6f-d8fc-4ef2-aacf-b181ba042918" name="Rad51_SEA4" renderer="BAR_CHART" visible="true">
+            <Track altColor="0,0,178" attributeKey="SEA4_Rad51_L1_RPGC.bw" autoScale="false" color="0,0,178" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/SEA4_Rad51_L1_RPGC.bw" name="SEA4_Rad51_L1_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <Track altColor="153,153,0" attributeKey="SEA4_Rad51_N1_RPGC.bw" autoScale="false" color="153,153,0" fontSize="10" id="/home/thomas/Bureau/tdefreitas_genobioinfo/PROJET_H2AV_2025/DATA/CHIPSEQ/SEA4_WT3/SEA4_Rad51_N1_RPGC.bw" name="SEA4_Rad51_N1_RPGC.bw" renderer="LINE_PLOT" visible="true" windowFunction="mean"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="62" name="FeaturePanel" width="1831">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Curated" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;111.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz" name="Refseq Curated" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.9167701863354037"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
